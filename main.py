@@ -149,12 +149,6 @@ def showChosenImage():
  
 lw_files.currentRowChanged.connect(showChosenImage)
 
-btn_bw.clicked.connect(workimage.do_bw)
-btn_flip.clicked.connect(workimage.do_flip)
-btn_left.clicked.connect(workimage.do_left)
-btn_right.clicked.connect(workimage.do_right)
-btn_sharp.clicked.connect(workimage.do_sharpen)
-btn_blur.clicked.connect(workimage.do_blur)
 win.show()
 app.exec()
 
